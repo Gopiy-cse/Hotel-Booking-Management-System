@@ -10,7 +10,6 @@ const mongourl="mongodb+srv://rmuthubrijesh:RoyalRooms@roomslog.ccobpsk.mongodb.
 const SibApiV3Sdk = require('sib-api-v3-sdk');
 const defaultClient = SibApiV3Sdk.ApiClient.instance;
 const apiKey = defaultClient.authentications['api-key'];
-apiKey.apiKey = "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";
 const apiInstance = new SibApiV3Sdk.TransactionalEmailsApi();
 
 
